@@ -30,7 +30,7 @@ closeAllConnections()
 ### Step 1 load the data 
 
 source (paste0(dir_scripts,"CLIC_Brazil_Dataload.R"), echo=TRUE)
-source("GitHub/clic_brazil/CLIC_Brazil_Dataload.R")
+#source("GitHub/clic_brazil/CLIC_Brazil_Dataload.R")
 
 today <- Sys.Date()
 today <- format(today, format="%d-%B-%Y")
