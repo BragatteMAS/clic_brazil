@@ -9,6 +9,7 @@ require(jsonlite)
 require(dplyr)
 require(reshape2)
 require(data.table)
+#require(tidytable)
 require(covid19br)
 
 ### Data clean up
