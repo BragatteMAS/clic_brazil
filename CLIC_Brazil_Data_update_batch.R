@@ -15,10 +15,10 @@ require(sf)
 today <- Sys.Date()
 today <- format(today, format="%d-%B-%Y")
 
-log_fil_dir <- "C:/CADDE_Data/COVID_cities/log_files/"
-dir_scripts <- "C:/github/clic_brazil/"
-
-
+# log_fil_dir <- "C:/CADDE_Data/COVID_cities/log_files/"
+# dir_scripts <- "C:/github/clic_brazil/"
+log_fil_dir <- "GitHub/preventable_deaths/CADDE_Data/COVID_cities/log_files/"
+dir_scripts <- "GitHub/clic_brazil/"
 
 now_time <- Sys.time() 
 log_file <- paste0(log_fil_dir,"br_data_batch", today,".log")
@@ -29,7 +29,8 @@ closeAllConnections()
 
 ### Step 1 load the data 
 
-source (paste0(dir_scripts,"CLIC_Brazil_Dataload.R"),echo=TRUE)
+source (paste0(dir_scripts,"CLIC_Brazil_Dataload.R"), echo=TRUE)
+#source("GitHub/clic_brazil/CLIC_Brazil_Dataload.R")
 
 today <- Sys.Date()
 today <- format(today, format="%d-%B-%Y")
