@@ -18,7 +18,7 @@ require(covid19br)
 ### Directory set up
 ### Update this with your local directories
 ##############
-dir_scripts <- "C:/github/clic_brazil/"
+dir_scripts <- "c/Users/033270622.ITAUCULTURAL/Documents/GitHub/clic_brazil"
 
 source (paste0(dir_scripts,"CLIC_Brazil_Script_directories.R"))
 
